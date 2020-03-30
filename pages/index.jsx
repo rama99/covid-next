@@ -30,9 +30,9 @@ const Index = ({countries}) => {
 
              
 
-<nav className="navbar navbar-light bg-light">
+<nav className="navbar navbar-light fixed-top bg-light">
   <form className="form-inline">     
-  <select class="form-control mr-sm-2" onChange={(e) => onCountrySelect(e)}>
+  <select className="form-control mr-sm-2" onChange={(e) => onCountrySelect(e)}>
                                         {
                                             countries.map(c => {
 
