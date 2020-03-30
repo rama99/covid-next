@@ -30,7 +30,7 @@ const Index = ({countries}) => {
 
              
 
-<nav className="navbar navbar-light fixed-top bg-light">
+<nav className="navbar navbar-light bg-light">
   <form className="form-inline">     
   <select className="form-control mr-sm-2" onChange={(e) => onCountrySelect(e)}>
                                         {
